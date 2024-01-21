@@ -25,12 +25,12 @@ for i in range(integer):
 -----------------------------------------------------------------------
 3) "Even number print!"
 ```python
-for i in range(0, 102, 2):
+for i in range(0, 102, 2):  #from 0 to 102 with interval 2
     print(i)
 ```
 4) "Odd number print!"
 ```python
-for i in range(1, 101, 2):
+for i in range(1, 101, 2):   #from 1 to 101 with interval 2
     print(i)
 ```
 -----------------------------------------------------------------------
@@ -46,4 +46,25 @@ for i  in range(8):   #Here is 8 because 10-2(number from what we start(num_1)) 
     print('==========')
     num_1 += 1
     num_2 = 2
+```
+6) "Power of Number!"
+```python
+number = int(input("number: "))
+number_1 = number
+power = int(input("power:"))  
+for i in range(power-1):   #power - 1 to make a correct calculations! 
+    number *= number_1
+    print(number)
+print('number ',number_1, ' in power ', power,'will be: ',number)
+```
+7)shapes!
+```python
+num = int(input("number of shelves: "))
+for i in range(num+1):      #triangle from to num at the left
+    print(i * "*")
+print("<==============>")
+for i in range(num+1):
+    print((num+1) * "*")    #rectangle
+print("<==============>")
+
 ```
