@@ -83,8 +83,8 @@ b = 0
 inital = b
 
 
-while a > 0:
-    print(b * " ", a * "*")
+while a > 0:                   #Alternative decreasing triangle
+    print(b * " ", a * "*") 
     b += 1
     a -= 1
 a = num
