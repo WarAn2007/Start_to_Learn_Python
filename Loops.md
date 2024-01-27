@@ -57,14 +57,41 @@ for i in range(power-1):   #power - 1 to make a correct calculations!
     print(number)
 print('number ',number_1, ' in power ', power,'will be: ',number)
 ```
-7)shapes!
+7)Shapes!
 ```python
 num = int(input("number of shelves: "))
-for i in range(num+1):      #triangle from to num at the left
+a = num + 1
+for i in range(a):      #increasing triangle
     print(i * "*")
 print("<==============>")
-for i in range(num+1):
-    print((num+1) * "*")    #rectangle
+for i in range(a):
+    print(a * "*")    #rectangle
 print("<==============>")
+for i in range(num):
+    print((num) * "* ")    #square
+print("<==============>")
+while a > 0:
+    print(a * "*")      #decreasing triangle
+    a -= 1
 
+```
+8) Alternative Shapes!
+```python
+num = int(input("number of shelves: "))
+a = num
+b = 0
+inital = b
+
+
+while a > 0:
+    print(b * " ", a * "*")
+    b += 1
+    a -= 1
+a = num
+b = inital
+print("<==============>")
+for i in range(a):          #Alternative increasing triangle
+    print(a * " ", b * "*") 
+    b += 1
+    a -= 1
 ```
