@@ -69,3 +69,14 @@ object1.Machine_part()                                            # inherited fr
 ```py
 
 ```
+#                       FeedBack
+## 1) Iterators
+### functions __iter__() and __next__()
+#### 'Dictionary', 'tuple', 'set', 'list' are iterable
+```py
+
+```
+#### 'string' also can be iterated
+```py
+
+```
